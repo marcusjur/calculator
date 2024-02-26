@@ -65,7 +65,7 @@ class CalculatorGUI:
         self.result_label = ttk.Label(mainframe, text="Результат: ")
         self.result_label.grid(row=3, column=0, columnspan=4, padx=5, pady=5)
 
-        # Добавление отступов к каждому элементу управления в mainframe
+        # Добавление отступов к каждому элементу управления
         for child in mainframe.winfo_children():
             child.grid_configure(padx=5, pady=5)
 
